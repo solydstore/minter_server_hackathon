@@ -82,9 +82,10 @@ Secured endpoint for initiating a mint request.
 
 ```mermaid
 flowchart TD
-    ManagementServer --POST /mint_solyd_soulbound--> MinterServer
-    MinterServer --Generate NFT Mint--> Solana Blockchain
-    MinterServer --Respond with Explorer Link--> ManagementServer
+    ManagementServer --POST /mint--> MinterServer
+    MinterServer --"Generate NFT Mint"--> SolanaBlockchain
+    SolanaBlockchain --"Confirm Mint"--> MinterServer
+    MinterServer --"Respond with Explorer Link"--> ManagementServer
 ```
 
 **Minting Steps:**

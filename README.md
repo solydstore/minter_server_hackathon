@@ -170,3 +170,6 @@ Built with ❤️ by the **Solyd** team for the **Solana Colosseum Hackathon**.
 * Follow [Metaplex UMI Documentation](https://developers.metaplex.com/umi/introduction) for deeper understanding.
 * Oracle Plugin details available at [mpl-core documentation](https://developers.metaplex.com/standards/core/introduction).
 * Requires collection creation prior to minting if linking to a collection.
+* Before testing, you should insert all .env files manually. (Security reasons)
+  
+# The implementation is now active and running at https://solyd.store.

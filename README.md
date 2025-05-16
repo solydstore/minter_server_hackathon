@@ -2,6 +2,8 @@
 
 # 🌟 SOLYD NFT Minter Server
 
+Check out the mmanager server @ https://github.com/solydstore/manager_server_hackathon.git
+
 ## 🚀 Features
 
 * Mint **Soulbound NFTs** automatically upon request

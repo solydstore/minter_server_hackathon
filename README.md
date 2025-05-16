@@ -2,7 +2,7 @@
 
 # 🌟 SOLYD NFT Minter Server
 
-Check out the mmanager server @ https://github.com/solydstore/manager_server_hackathon.git
+Check out the manager server @ https://github.com/solydstore/manager_server_hackathon.git
 
 ## 🚀 Features
 
